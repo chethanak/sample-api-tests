@@ -1,5 +1,5 @@
-var frisby = require('../../../node_modules/frisby');
-var async = require ('../../../node_modules/async');
+var frisby = require('../../../node_modules/frisby/lib/frisby');
+var async = require ('../../../node_modules/async/lib/async');
 var helper = require('../mixins/helper.js');
 var carHelper = require('../carMixins/carHelper.js');
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"

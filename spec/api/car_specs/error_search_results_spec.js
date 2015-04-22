@@ -1,5 +1,5 @@
 
-var async = require ('../../../node_modules/async');
+var async = require ('../../../node_modules/async/lib/async');
 var helper = require('../mixins/helper.js');
 var carHelper = require('../carMixins/carHelper.js');
 var carApis = require('../carMixins/carApiFunctions.js');

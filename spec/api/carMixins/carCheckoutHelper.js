@@ -1,6 +1,6 @@
 var helper = require('../mixins/helper.js');
 var carApis = require('./carApiFunctions.js')
-var frisby = require('../../../node_modules/frisby');
+var frisby = require('../../../node_modules/frisby/lib/frisby');
 
 var validateCarCheckout = function validateCarCheckout(json){
 	 expect(json.newTrip).toBeDefined();

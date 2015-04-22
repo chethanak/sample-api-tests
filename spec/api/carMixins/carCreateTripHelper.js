@@ -1,6 +1,6 @@
 var helper = require('../mixins/helper.js');
 var carApis = require('./carApiFunctions.js')
-var frisby = require('../../../node_modules/frisby');
+var frisby = require('../../../node_modules/frisby/lib/frisby');
 
 var createCarTrip = exports.createCarTrip = function createCarTrip (callback,carCreateTripUrl,scenarioName){
    process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";

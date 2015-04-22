@@ -1,4 +1,4 @@
-var moment = require('../../../node_modules/moment');
+var moment = require('../../../node_modules/moment/moment');
 
 exports.setTodaysDate = function () {
     return moment().format('YYYY-MM-DDTHH:mm:ss');

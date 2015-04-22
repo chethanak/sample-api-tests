@@ -1,6 +1,6 @@
-var frisby = require('../../../node_modules/frisby');
+var frisby = require('../../../node_modules/frisby/lib/frisby');
 var helper = require('../mixins/helper.js');
-var carHelper = require('../carMixins/carHelper.js');
+var carHelper = require('./carHelper.js');
 var carSearchHelper = require('./carSearchHelper.js');
 var env = "wwwexpediacom.trunk.sb.karmalab.net";
 
