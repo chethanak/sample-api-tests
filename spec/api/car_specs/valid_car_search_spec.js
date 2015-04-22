@@ -1,8 +1,8 @@
 var async = require ('../../../node_modules/async/lib/async');
-var helper = require('../mixins/helper.js');
-var carHelper = require('../carMixins/carHelper.js');
-var carApis = require('../carMixins/carApiFunctions.js');
-var carSearch = require('../carMixins/carSearchHelper.js');
+var helper = require('../mixins/helper');
+var carHelper = require('../carMixins/carHelper');
+var carApis = require('../carMixins/carApiFunctions');
+var carSearch = require('../carMixins/carSearchHelper');
 var env = "wwwexpediacom.trunk.sb.karmalab.net";
 
 var PICKUP = 90;

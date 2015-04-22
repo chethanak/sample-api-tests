@@ -1,4 +1,4 @@
-var helper = require('../mixins/helper.js');
+var helper = require('../mixins/helper');
 
 exports.createCarSearchUrl = function(env,queryStringForSearch){
    var carSearchEndpoint ='/m/api/cars/search/airport?'

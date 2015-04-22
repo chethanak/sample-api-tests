@@ -1,5 +1,5 @@
-var helper = require('../mixins/helper.js');
-var carApis = require('./carApiFunctions.js')
+var helper = require('../mixins/helper');
+var carApis = require('./carApiFunctions')
 var frisby = require('../../../node_modules/frisby/lib/frisby');
 
 var createCarTrip = exports.createCarTrip = function createCarTrip (callback,carCreateTripUrl,scenarioName){
